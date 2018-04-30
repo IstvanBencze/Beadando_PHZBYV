@@ -4,6 +4,6 @@ def fordito(mondat):
     szavak[0]=szavak[0].replace(szavak[0],szavak[0].lower())
     szavak[0]=szavak[0].replace(szavak[0][1],szavak[0][1].upper())
     for i in range(len(szavak)):
-        PigLatin+=szavak[i]+szavak[i][0]+"ay "
+        PigLatin+=szavak[i][1:]+szavak[i][0]+"ay "
     return PigLatin
-print(fordito("The quick brown fox"))
+print(fordito("The quick brown fox")
