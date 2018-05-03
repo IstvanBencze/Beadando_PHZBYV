@@ -1,5 +1,5 @@
 def legkisebb():
-    i=10
+    i=20
     while True:
         if i%19==0:
             if i%18==0:
@@ -19,5 +19,5 @@ def legkisebb():
                                                                     if i%3==0:
                                                                         if i%2==0:
                                                                             return i
-        i+=10
+        i+=20
 print(legkisebb())
